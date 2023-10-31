@@ -1,0 +1,39 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.cifdaqwallet.mpcwallet
+productName: cifdaq-wallet
+files:
+  - filter:
+      - build/**/*
+win:
+  target: nsis
+  icon: ./build/icon.png
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: cifdaq-wallet
+  license: ./build/LICENSE.txt
+mac:
+  target: dmg
+  icon: ./build/icon.icns
+linux:
+  desktop:
+    StartupNotify: 'false'
+    Encoding: UTF-8
+    MimeType: x-scheme-handler/deeplink
+  target:
+    - AppImage
+    - rpm
+    - deb
+deb:
+  priority: optional
+  afterInstall: installer/linux/after-install.tpl
+rpm:
+  fpm:
+    - '--before-install'
+    - installer/linux/before-install.tpl
+  afterInstall: installer/linux/after-install.tpl
+electronVersion: 27.0.2
