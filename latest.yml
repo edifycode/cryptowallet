@@ -1,8 +1,8 @@
-version: 1.0.0
+version: 1.3.0
 files:
-  - url: cifdaq-wallet-Setup-1.0.0.exe
-    sha512: pxE7WuXMTDJzu9LNy2/qGsPXOQegRczBs3sfPLFV0AK5DHDiDf2toC0y6pwESN/xBPKKjqymcjpLw/EeR4hFOw==
-    size: 83663257
-path: cifdaq-wallet-Setup-1.0.0.exe
-sha512: pxE7WuXMTDJzu9LNy2/qGsPXOQegRczBs3sfPLFV0AK5DHDiDf2toC0y6pwESN/xBPKKjqymcjpLw/EeR4hFOw==
-releaseDate: '2023-10-31T14:14:24.803Z'
+  - url: cifdaq-wallet-Setup-1.3.0.exe
+    sha512: 83xViKk69cXWNVRzZhRCeKP40IczNFkTKJ9S0AUQE/Qd923VosmSHf4ukY3vVZR0NZnpI+aW8B95d0pXnr1NRw==
+    size: 83662970
+path: cifdaq-wallet-Setup-1.3.0.exe
+sha512: 83xViKk69cXWNVRzZhRCeKP40IczNFkTKJ9S0AUQE/Qd923VosmSHf4ukY3vVZR0NZnpI+aW8B95d0pXnr1NRw==
+releaseDate: '2023-10-31T14:55:08.337Z'
